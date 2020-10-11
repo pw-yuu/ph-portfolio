@@ -2,12 +2,14 @@
 
 header {
     height: 7.2rem;
+    width: 100vw;
     background: $primary_black;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
 
-    h1 {
+    h3 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -75,7 +77,7 @@ header {
     ul {
         display: flex;
         list-style-type: none;
-        margin-right: 1rem;
+        margin-right: 3rem;
         li {
             padding: 0 1rem;
         }

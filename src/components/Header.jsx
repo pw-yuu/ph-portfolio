@@ -11,29 +11,29 @@ import github from '../img/github.svg';
 export default function Header() {
     return (
         <header>
-            <h1><span>p</span>h</h1>
+            <h3><span>p</span>h</h3>
             <nav>
-                <a href="" className>
+                <a href="#home" className>
                     <img src={home} alt="home"/>
                 </a>
-                <a href="">
+                <a href="#about">
                     <img src={about} alt="about"/>
                 </a>
-                <a href="">
+                <a href="#skills">
                     <img src={skills} alt="skilss"/>
                 </a>
-                <a href="">
+                <a href="#work">
                     <img src={work} alt="work"/>
                 </a>
             </nav>
             <ul>
                 <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/philippe-huynh-0a7151109/" target="_blank">
                     <img src={linkedin} alt="linkedin"/>
                 </a>
                 </li>
                 <li>
-                <a href="">
+                <a href="https://github.com/pw-yuu" target="_blank">
                     <img src={github} alt="github"/>
                 </a>
                 </li>
