@@ -1,0 +1,83 @@
+@import '../style/colors';;
+
+header {
+    height: 7.2rem;
+    background: $primary_black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 7.2rem;
+        color: $primary_white;
+        background: $secondary_black;
+        font-size: 3rem;
+        font-weight: 400;
+        span {
+            color: $primary_blue;
+        }
+    }
+
+    nav {
+        display: flex;
+        margin: auto;
+        a {
+            margin: 1.2rem 4rem 0 4rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &:link {
+                text-decoration: none;
+            }
+            svg:hover {
+                stroke: $primary_blue;
+            }
+            img {
+                margin-bottom: 0.3rem;
+            }
+
+            &:first-child:after {
+                content: 'HOME';
+            }
+            &:first-child + a:after {
+                content: 'ABOUT';
+            }
+            &:first-child + a + a:after {
+                content: 'SKILLS';
+            }
+            &:first-child + a + a + a:after {
+                content: 'WORK';
+            }
+
+            &:after {
+                
+                opacity: 0;
+                transition: all 0.3s ease-out;
+                text-decoration: none;
+                letter-spacing: 0.2rem;
+            }
+            
+            &:hover:after {
+                opacity: 1;
+                margin: auto;
+                color: $primary_blue;
+            }
+        }
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin-right: 1rem;
+        li {
+            padding: 0 1rem;
+        }
+    }
+}
