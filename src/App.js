@@ -11,11 +11,13 @@ import Work from './components/Work';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
+      <div className="container">
+        <Header />
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+      </div>
     </div>
   );
 }

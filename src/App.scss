@@ -9,3 +9,23 @@ html {
     font-size: 10px;
     background: $primary_grey;
 }
+
+.App {
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+
+div.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+article {
+    height: 100vh;
+    padding-top: 7.2rem;
+    color: #FFF;
+}

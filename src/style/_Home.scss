@@ -1,6 +1,38 @@
 article.home-area {
-    padding-top: 7.2rem;
-    height: 100vh;
-    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6rem;
+    flex-wrap: wrap;
+    
+    img {
+        box-shadow: -100px -100px 0px 0px $primary_blue;
+        margin-right: 20rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+    p {
+        font-size: 1.8rem;
+        color: $primary_white;
+        font-weight: 300;
+    }
+
+    button {
+        height: 4rem;
+        width: 15rem;
+        color: $primary_blue;
+        font-size: 1.6rem;
+        outline: none;
+        background: none;
+        border: $primary_blue solid 1px;
+        cursor: pointer;
+
+        &:hover {
+            color: #FFF;
+            background: $primary_blue;
+        }
+    }
 
 }
