@@ -1,5 +1,36 @@
 article.about-area {
-    padding-top: 7.2rem;
-    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 10%;
 
+    section.text-area {
+        max-width: 46rem;
+        // margin-right: 20rem;
+    }
+    section.icon-area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 40%;
+        min-width: 51rem;
+
+        svg {
+            height: 9rem;
+            width: 9rem;
+            // padding: 2rem;
+            margin: 4rem;
+            &:hover {
+                fill: $primary_blue;
+            }
+        }
+    }
+
+    p {
+        font-size: 1.6rem;
+        margin: 2rem 0;
+        letter-spacing: 0.1rem;
+    }
 }

@@ -28,12 +28,12 @@ export default function Header() {
             </nav>
             <ul>
                 <li>
-                <a href="https://www.linkedin.com/in/philippe-huynh-0a7151109/" target="_blank">
+                <a href="https://www.linkedin.com/in/philippe-huynh-0a7151109/" target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} alt="linkedin"/>
                 </a>
                 </li>
                 <li>
-                <a href="https://github.com/pw-yuu" target="_blank">
+                <a href="https://github.com/pw-yuu" target="_blank" rel="noopener noreferrer">
                     <img src={github} alt="github"/>
                 </a>
                 </li>

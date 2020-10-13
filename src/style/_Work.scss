@@ -1,5 +1,74 @@
 article.work-area {
-    padding-top: 7.2rem;
-    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+
+            a {
+                cursor: pointer;
+                &:link {
+                    text-decoration: none;
+                }
+        
+                div.thumb1 {
+                    background: url(../img/kodokura.png) no-repeat;
+                }
+                div.thumb2 {
+                    background: url(../img/tenkichi.png) 50% 0% no-repeat;
+                }
+                div.thumb3 {
+                    background: url(../img/nekowallet.png) 51% 0% no-repeat;
+                }
+                div.thumb4 {
+                    background: url(../img/jobuten.png) 50% 0% no-repeat;
+                }
+        
+                div.thumb {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 40rem;
+                    width: 40rem;
+                    filter: grayscale(80%);
+                    transition: all 0.4s ease-out;
+            
+                    button {
+                        cursor: pointer;
+                        height: 8rem;
+                        width: 8rem;
+                        border-radius: 50%;
+                        font-size: 1.6rem;
+                        letter-spacing: 0.2rem;
+                        background: $primary_blue;
+                        border: none;
+                        outline: none;
+                        opacity: 0;
+                        transition: all 0.2s ease-out;
+                    }
+            
+                    &:hover {
+                        filter: grayscale(0%);
+                        button {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
 
 }
