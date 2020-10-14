@@ -8,6 +8,10 @@ article.about-area {
     section.text-area {
         max-width: 46rem;
         // margin-right: 20rem;
+
+        span {
+            font-weight: bold;
+        }
     }
     section.icon-area {
         display: flex;

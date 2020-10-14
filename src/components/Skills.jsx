@@ -18,7 +18,7 @@ export default function Skills() {
         <article id="skills" className="skills-area">
             <section>
                 <h2>Skills & Technologies</h2>
-                <p>My main area of work is in Front-ENd development. I also have some experience working with Back-End technologies.</p>
+                <p>My main area of work is in Front-end development. I also have some experience working with Back-end technologies.</p>
                 
                 <div>
                     <img src={html} alt="html"/>

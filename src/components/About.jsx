@@ -17,9 +17,9 @@ export default function Home() {
         <article id="about" className="about-area">
             <section className="text-area">
                 <h2>About me</h2>
-                <p>I am a Front-end software engineer with a background in digital marketing, graphic & 3D design based in Tokyo, JP.</p>
-                <p>My path to software engineering began while working closely with software engineer at my first company, where I learned and became interested in Front-end engineer and eventually decide to pursue programming full-time.</p>
-                <p>Since then, I have built numerous full-stack webapps and website on Node/Express, leveraging Javascript framework such as React. I have been working more on the front-end side of applications as this is the field I am particularly excited about.</p>
+                <p>I am a Front-end software engineer with a background in digital marketing, graphic & 3D design, <span>based in Tokyo</span>.</p>
+                <p>My path to software engineering began while working closely with software engineer at my first workplace, where I learned and became interested in front-end engineering and eventually decide to pursue programming full-time.</p>
+                <p>Since then, I have built numerous full-stack webapps and websites on Node/Express, leveraging JavaScript framework such as React. I have been working more on the front-end side of applications as this is the field I am particularly excited about.</p>
             </section>
             <section className="icon-area">
                 {/* <img src={three} alt="3d"/>
